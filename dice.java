@@ -19,6 +19,11 @@ public class dice {
 		newValue = value/total;		
 		return newValue;
 	}
+	public int Throw()
+	{
+		newValue = random.nextInt(6)+1;
+		return newValue;
+	}
 	public int Value()
 	{
 		value = newValue;
